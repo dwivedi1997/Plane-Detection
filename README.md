@@ -29,3 +29,5 @@ The dataset can be download here: <a href='https://www.kaggle.com/aceofspades914
 ## Test Images
 ![image](https://github.com/dwivedi1997/Plane-Detection/assets/47722937/5aa74214-421c-4f09-b0e3-34e8a8d4c814)
 
+## Inferences
+![image](https://github.com/dwivedi1997/Plane-Detection/assets/47722937/5aa74214-421c-4f09-b0e3-34e8a8d4c814)
