@@ -1,17 +1,42 @@
 Steps to Execute File:
-Clone yolov5 git  : git clone https://github.com/ultralytics/yolov5.git
-get into yolo dir : cd yolov5
-run : pip install -r requirements.txt
-write config file :  %%writefile config.yaml
-                     train: /content/train_data/images/train
-                     val: /content/train_data/images/val
-                     nc: 1
-                     names: ['plane']
 
-Run yolov5 train file :
+Step1 : Run the main_file.py to download the dataset and arrange all the images in the directory structure as given in readme.md file
+Note: Kaggle.json file should in the same directory to download automatically otherwise you can enter username and API token
+
+Step2 : Clone yolov5 git
+git clone https://github.com/ultralytics/yolov5.git
+
+Step3 : get into yolo dir
+cd yolov5
+
+Step4 : run
+pip install -r requirements.txt
+
+Step5 : Open a text editor or write a config file mention training images directory
+write config file :  %%writefile config.yaml
+train: /home/paperspace/plane_detection/train_data/images/train
+val: /home/paperspace/plane_detection/train_data/images/val
+nc: 1
+names: ['plane']
+
+Step5 : Run the training file from yolov5 directory
 python train.py --img 416 --batch 16 --epochs 30 --data config.yaml --cfg models\yolov5x.yaml --weights yolov5x.pt --name yolov5x_plane --cache
 
-Detection:
-!python yolov5/detect.py --source train_data/images/val --weights yolov5/runs/train/yolov5x_plane/weights/best.pt --img 416 --conf 0.4
+Basic Arguments
+--data       < path to the config.yaml we created above >
+--cfg          < path to model configuration file (look at available model section below) >
+--img         < target image size - single integer >
+--batch      < batch size - single integer >
+--epochs   < no of epochs - single integer >
+--name      < name of directory where model will be saved>
 
+
+Optional params
+--weights    < path to pretrained weights or last checkpoint, don't include for transfer learning, set to ' ' empty string to train from scratch, or give the path of your last run >
+--cache        < cache image for faster training but consumes more memory >
+--hyp            < path to hyperparameter file, don't include for default best values >
+--adam         < Use adam optimizer >
+
+Step6 : Run the Detection file to detect and save the images in the run/detect folder
+!python yolov5/detect.py --source train_data/images/val --weights yolov5/runs/train/yolov5x_plane/weights/best.pt --img 416 --conf 0.4
 
