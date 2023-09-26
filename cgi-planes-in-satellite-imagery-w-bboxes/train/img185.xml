@@ -1,0 +1,54 @@
+
+    <annotation>
+        <folder>Python Fun</folder>
+        <filename>img185.png</filename>
+        <path>C:\Users\rober\Documents\Python Fun\plane.png</path>
+        <source>
+            <database>Unknown</database>
+        </source>
+        <size>
+            <width>1000</width>
+            <height>700</height>
+            <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        
+        <object>
+            <name>plane</name>
+            <pose>Unspecified</pose>
+            <truncated>0</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>551</xmin>
+                <ymin>570</ymin>
+                <xmax>584</xmax>
+                <ymax>604</ymax>
+            </bndbox>
+        </object>
+        <object>
+            <name>plane</name>
+            <pose>Unspecified</pose>
+            <truncated>0</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>695</xmin>
+                <ymin>502</ymin>
+                <xmax>775</xmax>
+                <ymax>580</ymax>
+            </bndbox>
+        </object>
+        <object>
+            <name>plane</name>
+            <pose>Unspecified</pose>
+            <truncated>0</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>254</xmin>
+                <ymin>333</ymin>
+                <xmax>335</xmax>
+                <ymax>418</ymax>
+            </bndbox>
+        </object>
+        
+    </annotation>
+    

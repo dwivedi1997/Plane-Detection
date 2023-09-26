@@ -1,0 +1,42 @@
+
+    <annotation>
+        <folder>Python Fun</folder>
+        <filename>img122.png</filename>
+        <path>C:\Users\rober\Documents\Python Fun\plane.png</path>
+        <source>
+            <database>Unknown</database>
+        </source>
+        <size>
+            <width>1000</width>
+            <height>700</height>
+            <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        
+        <object>
+            <name>plane</name>
+            <pose>Unspecified</pose>
+            <truncated>0</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>380</xmin>
+                <ymin>303</ymin>
+                <xmax>437</xmax>
+                <ymax>364</ymax>
+            </bndbox>
+        </object>
+        <object>
+            <name>plane</name>
+            <pose>Unspecified</pose>
+            <truncated>0</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>318</xmin>
+                <ymin>473</ymin>
+                <xmax>356</xmax>
+                <ymax>511</ymax>
+            </bndbox>
+        </object>
+        
+    </annotation>
+    

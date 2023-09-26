@@ -1,0 +1,66 @@
+
+    <annotation>
+        <folder>Python Fun</folder>
+        <filename>img114.png</filename>
+        <path>C:\Users\rober\Documents\Python Fun\plane.png</path>
+        <source>
+            <database>Unknown</database>
+        </source>
+        <size>
+            <width>1000</width>
+            <height>700</height>
+            <depth>3</depth>
+        </size>
+        <segmented>0</segmented>
+        
+        <object>
+            <name>plane</name>
+            <pose>Unspecified</pose>
+            <truncated>0</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>235</xmin>
+                <ymin>422</ymin>
+                <xmax>276</xmax>
+                <ymax>464</ymax>
+            </bndbox>
+        </object>
+        <object>
+            <name>plane</name>
+            <pose>Unspecified</pose>
+            <truncated>0</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>808</xmin>
+                <ymin>460</ymin>
+                <xmax>852</xmax>
+                <ymax>505</ymax>
+            </bndbox>
+        </object>
+        <object>
+            <name>plane</name>
+            <pose>Unspecified</pose>
+            <truncated>0</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>452</xmin>
+                <ymin>244</ymin>
+                <xmax>517</xmax>
+                <ymax>308</ymax>
+            </bndbox>
+        </object>
+        <object>
+            <name>plane</name>
+            <pose>Unspecified</pose>
+            <truncated>0</truncated>
+            <difficult>0</difficult>
+            <bndbox>
+                <xmin>906</xmin>
+                <ymin>535</ymin>
+                <xmax>944</xmax>
+                <ymax>571</ymax>
+            </bndbox>
+        </object>
+        
+    </annotation>
+    

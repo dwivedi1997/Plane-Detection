@@ -1,0 +1,17 @@
+Steps to Execute File:
+Clone yolov5 git  : git clone https://github.com/ultralytics/yolov5.git
+get into yolo dir : cd yolov5
+run : pip install -r requirements.txt
+write config file :  %%writefile config.yaml
+                     train: /content/train_data/images/train
+                     val: /content/train_data/images/val
+                     nc: 1
+                     names: ['plane']
+
+Run yolov5 train file :
+python train.py --img 416 --batch 16 --epochs 30 --data config.yaml --cfg models\yolov5x.yaml --weights yolov5x.pt --name yolov5x_plane --cache
+
+Detection:
+!python yolov5/detect.py --source train_data/images/val --weights yolov5/runs/train/yolov5x_plane/weights/best.pt --img 416 --conf 0.4
+
+
