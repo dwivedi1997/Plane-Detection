@@ -34,4 +34,4 @@ Results
 ![image](https://github.com/dwivedi1997/Plane-Detection/blob/master/results/results.png?raw=true)
 
 <b> Confusion Matrix </b>
-![image](https://github.com/dwivedi1997/Plane-Detection/blob/master/results/results.png?raw=true)
+![image](https://github.com/dwivedi1997/Plane-Detection/blob/master/results/confusion_matrix.png?raw=true)
